@@ -1,0 +1,529 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/binary.gif);
+  background-size: cover;
+  image-orientation: initial;
+  background-position: center;
+  font-family: 'Times New Roman', serif;
+  color: #00ffff; /* Cyan blue for body text */
+}
+
+
+
+nav {
+  position: fixed;
+}
+
+/* src/components/style.css */
+.btn {
+  border-color: #00ffff;
+  color: white; /* Blue for button text */
+  font-family: 'Times New Roman', serif;
+}
+
+.btn:hover {
+  background-color: #00ffff;
+  color: navy; 
+  font-family: 'Times New Roman', serif;
+  box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.6);
+}
+
+.home-page .action-buttons button {
+  border-color: #00ffff;
+  color: white; /* Blue for button text */
+  font-family: 'Times New Roman', serif;
+  background-color: navy;
+  height: 45px;
+  width: 130px;
+  
+}
+
+
+.action-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+.home-page .action-buttons button:hover {
+  background-color: #00ffff;
+  color: navy; 
+  font-family: 'Times New Roman', serif;
+  box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.6);
+  display: block;
+  justify-content: space-between;
+
+}
+
+.btn1{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+.btn2{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+.b {
+  border-color: #00ffff;
+  color: white; /* Blue for button text */
+  font-family: 'Times New Roman', serif;
+  background-color: navy;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  margin-top: 15px;
+  
+}
+
+.b:hover {
+  background-color: #00ffff;
+  color: navy; 
+  font-family: 'Times New Roman', serif;
+  box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.6);
+  font-size: 18px;
+  transform: translateZ(20px);
+}
+
+
+
+.navbar-brand {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #00ffff; /* Change border to left */
+  animation: width-animation-reverse 7s infinite;
+  margin-left: auto;
+}
+
+@keyframes width-animation-reverse {
+  0% {
+    width: 0%;
+    border-right: 5px solid transparent;
+  }
+  50% {
+    width: 100%;
+    border-right: 5px solid #00ffff;
+  }
+  100% {
+    width: 0%;
+    border-right: 5px solid transparent;
+  }
+}
+
+
+
+
+
+
+
+.home-page {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Times New Roman', serif;
+}
+
+.home-page button {
+  font-size: 20px;
+  color: #fff;
+  margin: 3px;
+  border-color: #00ffff;
+}
+
+.home-page img {
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-height: 300px;
+  max-width: 300px;
+  opacity: 0.8;
+}
+
+.home-page h2 {
+  text-shadow: 2px 2px 5px black;
+  color: #00ffff; /* Cyan blue for home page headings */
+}
+
+.home-page p {
+  font-size: 20px;
+  color: #00ffff; 
+}
+
+.home-content {
+  text-align: center;
+  width: auto;
+  max-width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #18055c;
+  opacity: 1;
+  font-family: 'Times New Roman', serif;
+}
+
+.center h2 {
+  margin-bottom: 10px;
+  color: #0000ff; /* Blue for center headings */
+}
+
+.center p {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #0000ff; /* Blue for center paragraphs */
+}
+
+.transparent-input {
+  background-color: transparent;
+  border: black 1px solid;
+  padding: 5px;
+  /* color: #0000ff; Blue for transparent input text */
+  font-family: 'Times New Roman', serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.center {
+  text-align: center;
+  color: #0000ff; /* Blue for center text */
+}
+
+.create-account-page {
+  text-align: center;
+  max-width: 700px;
+  margin: 70px auto; 
+  margin-top: 2px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.9;
+  font-family: 'Times New Roman', serif;
+}
+
+.img-fluid {
+  height: 130px;
+  width: 130px;
+}
+
+.create-account-page h2 {
+  font-weight: bold;
+  color: #0000ff; /* Blue for create account headings */
+  margin-bottom: 20px;
+}
+
+.create-account-page label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0000ff; /* Blue for create account labels */
+  font-size: 30px;
+}
+
+.create-account-page input {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+}
+
+.create-account-page button {
+  background-color: white;
+  color: #0000ff; /* Blue for create account button text */
+  padding: 10px 20px;
+  border: black 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-account-page button:hover {
+  background-color: white;
+}
+
+.deposit-page {
+  text-align: center;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: black 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.8;
+  font-family: 'Times New Roman', serif;
+}
+
+.deposit-page h1,
+.deposit-page p,
+.deposit-page #balance,
+.deposit-page label {
+  font-weight: bold;
+  color: #0000ff; /* Blue for deposit page text */
+}
+
+.deposit-page p {
+  font-size: 25px;
+}
+
+.deposit-page input {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.deposit-page button {
+  background-color: white;
+  color: #0000ff; /* Blue for deposit page button text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deposit-page button:hover {
+  background-color: white;
+}
+
+.popup-box {
+  width: 400px;
+  padding: 20px;
+  background-color: white; /* Blue color */
+  color: #00ffff;
+  border-radius: 10px;
+  border: 3px solid navy;
+  
+  box-shadow: 0 10px 20px rgba(31, 201, 235, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+  transition: transform 1.3s ease-out, opacity 1.3s ease-out;
+}
+
+
+
+
+
+.admin-login-video{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+
+  /* DetailPage.css */
+.detail-page {
+  text-align: center;
+  max-width: 600px; 
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.6;
+  font-family: 'Times New Roman', serif;
+}
+
+.detail-page h1 {
+  font-weight: bold;
+  color: black;
+  font-family: 'Georgia', serif;
+}
+
+.detail-page p {
+  margin: 10px 0;
+  font-weight: bold;
+  color: black;
+  font-family: 'Georgia', serif;
+}
+
+/* Footer class */
+.footer {
+  background-color: rgb(35, 11, 142);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  
+}
+
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-family: 'Times New Roman', serif;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  opacity: 1;
+  font-family: 'Georgia', serif;
+}
+
+.data-table {
+  margin: 0 auto;
+  color: #333;
+  background-color: #f5f5f5;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 90px;
+  font-family: 'Times New Roman', serif;
+  opacity: 0.9;
+  
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: navy;
+  opacity: 0.9;
+}
+
+.data-table thead {
+  opacity: 1;
+}
+
+.data-table th {
+  /* background-color: #4CAF50; */
+  color: white;
+  background-color: white;
+  opacity: 1;
+  
+  
+}
+
+/* itha uncomment panaa, table la even rows different ah theriyum */
+
+/* .data-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  
+} */
+
+@media only screen and (max-width: 600px) {
+  .home-page, .create-account-page, .deposit-page, .detail-page {
+    padding: 10px;
+  }
+
+  .create-account-page, .deposit-page, .detail-page {
+    max-width: 90%;
+    margin: 50px auto;
+  }
+
+  .create-account-page input,
+  .deposit-page input {
+    width: 100%;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    z-index: 1000;
+    padding: 10px;
+    font-family: 'Times New Roman', serif;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', serif;
+  }
+
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar {
+    background-color: navy;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1100;
+  }
+
+  .menu-icon i {
+    font-size: 24px;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+
+  #menuToggle:checked + nav ul {
+    display: block;
+  }
+}
