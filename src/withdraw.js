@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './style.css';
 import { useAppContext } from './Appcontext';
 import withdrawSound from './assets/withdrawn.mp3'; // Import the withdrawal audio file
-import insufficientSound from './assets/thanks.mp3'; // Import the insufficient funds audio file
-import limitSound from './assets/thanks.mp3'; // Import the withdrawal limit exceeded audio file
+import insufficientSound from './assets/insufficient.mp3'; // Import the insufficient funds audio file
+import limitSound from './assets/limit.mp3'; // Import the withdrawal limit exceeded audio file
 
 const WithdrawPage = () => {
   const { loggedInUser, setLoggedInUser, setUsers } = useAppContext();
